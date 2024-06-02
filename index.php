@@ -1,24 +1,10 @@
 <?php
 
-require_once("./helpers/url.php");
-
-
+require_once("./templete/header.php")
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= $BASE_URL ?>/css/style.css">
-    <title>Document</title>
-</head>
+<h1>Ola, Mundo</h1>
 
-<body>
 
-    <h1>Ola, Mundo</h1>
-
-</body>
-
-</html>
+<?php require_once("./templete/footer.php") ?>
